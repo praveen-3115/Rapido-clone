@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
 }
 
 html,
@@ -25,11 +26,14 @@ body {
 .input-box {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 1200px;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 0 12px;
     font-size: 2rem;
+    margin-top: 5px;
+    margin-left: 15%;
+    width: 60%;
 }
 
 .input-box i {
@@ -42,6 +46,12 @@ body {
     border: none;
     outline: none;
     padding: 12px 0;
+}
+.nav-item{
+    font-size: 1.5 rem;
+}
+.nav-item:hover{
+    text-decoration: underline;
 }
 
 .card {
@@ -83,6 +93,8 @@ body {
     }
     .foter{
         padding: 10px !important;
+        flex-direction: column;
+        gap: 10px;
         text-align: center;
         align-items: center;
     }
@@ -93,7 +105,12 @@ body {
     .fcard table {
         margin: auto;
     }
-    .focard{
-        display: none;
-    }
+}
+.navbar{
+    padding: 0 80px;
+}
+.foter{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
 }
